@@ -1,3 +1,7 @@
-body {
-    background-color: lightblue;
+html,body {
+    background-color: lightsteelblue;
   }
+
+h1.Heading1 {
+  font: 15px Arial, sans-serif
+}
