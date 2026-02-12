@@ -2,6 +2,29 @@ html,body {
     background-color: lightsteelblue;
   }
 
-h1.Heading1 {
-  font: 15px Arial, sans-serif
+.Heading1 {
+  font: 30px Arial, sans-serif;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ffff;
+  width: 275px;
+}
+
+.box {
+  font: 15px Arial, sans-serif;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+  width: 500px;
+  height: 330px;
+}
+
+.skibidi {
+  border-radius: 10px;
 }
