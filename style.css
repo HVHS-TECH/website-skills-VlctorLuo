@@ -25,6 +25,13 @@ html,body {
   height: 330px;
 }
 
-.skibidi {
-  border-radius: 10px;
+
+.skibidi img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+
+  position: relative;
+  left: 600px;
+  top: -425px;
 }
