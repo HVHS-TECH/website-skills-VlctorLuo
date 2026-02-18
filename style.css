@@ -1,3 +1,65 @@
+nav {
+  display: grid;
+  padding-bottom: 10px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  border-bottom: 2px solid black;
+  z-index: 1000;}
+
+body {
+  padding-top: 65px;
+  margin: 0;
+}
+
+.indexbutton a{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.gallerybutton a{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.gridbutton a{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbuttons img {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  width: 50px;
+  padding-top: 5px;
+  float: right;
+}
+
+
+/*DIVIDER, ABOVE IS GLOBAL BELOW is INDEX.HTML
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
+
+
 html,body {
     background-color: lightsteelblue;
   }
@@ -14,6 +76,20 @@ html,body {
   width: 295px;
 }
 
+.Heading2 {
+  font: 30px Arial, sans-serif;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #ffff;
+  width: 295px;
+  width: fit-content;
+  margin: 20px auto 40px auto;   
+  text-align: center; 
+}
+
 .box {
   font: 15px Arial, sans-serif;
   border-style: solid;
@@ -27,29 +103,103 @@ html,body {
   height: 330px;
 }
 
-.skibidi img {
+.skibidi {
   width: 50%;
   height: auto;
   border-radius: 20px;
-
-  position: relative;
-  left: 600px;
-  top: -425px;
+  margin-left: 600px;
+  margin-top: -450px;
 }
+
+.videocontainer {
+background-color: white;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto;
+
+}
+
+.videobox {
+background: white;
+  display: flex;
+  height: 225px;
+  justify-content: center; 
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.videobox iframe {
+  height: 80%;
+}
+
+
+
+/*DIVIDER, ABOVE IS INDEX.HTML BELOW is GRID.HTML
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
 
 .container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  padding: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 5px; 
   gap: 5px;
   background-color: white;
-}
+  width: 800px;
+  border-radius: 20px;
+ }
 
 .container div {
   background-color: black;
   color: white;
   padding: 10px;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
 }
+
+.maintext {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.mainpicture {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.container img {
+  aspect-ratio: 1 / 1;
+}
+
+/*DIVIDER, ABOVE IS GRID.HTML BELOW is GALLERY.HTML
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
+
+.changeratio {
+  font: 15px Arial, sans-serif;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  background-color: white;
+  width: 23%;
+  height: auto;
+}
+
+.galleryimages img{
+  border-radius: 100%;
+  padding: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  width: 350px
+} 
