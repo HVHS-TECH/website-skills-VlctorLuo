@@ -51,6 +51,12 @@ body {
   float: right;
 }
 
+@media screen and (min-width: 480px) {
+ html, body {
+    background-color: white;
+  }
+}
+
 
 /*DIVIDER, ABOVE IS GLOBAL BELOW is INDEX.HTML
 /////////////////////////////////////////////////
