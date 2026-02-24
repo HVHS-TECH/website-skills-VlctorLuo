@@ -1,5 +1,4 @@
 nav {
-  display: grid;
   padding-bottom: 10px;
   background-color: white;
   position: fixed;
@@ -8,47 +7,38 @@ nav {
   right: 0;
   padding: 5px;
   border-bottom: 2px solid black;
-  z-index: 1000;}
+  z-index: 1000;
+}
+.navbuttons {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navtextbuttons {
+  display: flex;
+  align-items: center; 
+}
 
+.navtextbuttons a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+  font-size: 17px;
+}
 body {
   padding-top: 65px;
   margin: 0;
 }
 
-.indexbutton a{
-    float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.gallerybutton a{
-    float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.gridbutton a{
-    float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbuttons img {
+.navtextbuttons img {
   aspect-ratio: 1 / 1;
   height: auto;
   width: 50px;
   padding-top: 5px;
-  float: right;
+  justify-content: flex-end;
+  display: flex;
 }
 
 @media screen and (min-width: 480px) {
