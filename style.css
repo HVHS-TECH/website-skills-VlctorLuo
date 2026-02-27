@@ -199,3 +199,26 @@ background: white;
   border-width: 5px;
   width: 350px
 } 
+
+/*DIVIDER, ABOVE IS GRID.HTML BELOW is GALLERY.HTML
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
+
+.flexheading1 {
+  display:flex;
+  justify-content: flex-start;}
+.flexheading2 {
+  display:flex;
+  justify-content: center;
+}
+.flexheading3 {
+  display:flex;
+  justify-content: flex-end;
+}
+.flextext {
+    align-items: center;
+    display: flex;
+}
